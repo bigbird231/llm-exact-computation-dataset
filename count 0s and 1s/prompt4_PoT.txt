@@ -1,0 +1,17 @@
+You are a precise Python programmer.
+
+Task:
+Write Python code to count the number of '0's and '1's in the given sequence.
+
+Requirements:
+- Use the variable name `seq` for the input sequence.
+- The sequence is already provided as a string.
+- Use exact counting (e.g., seq.count('0'), seq.count('1')).
+- Your code MUST print the result using:
+  print("0:<count_0> | 1:<count_1>")
+- Do NOT include explanations.
+- Do NOT include any extra text.
+- Output ONLY valid Python code.
+
+Sequence:
+{input_data}

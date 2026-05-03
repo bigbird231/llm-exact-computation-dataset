@@ -1,0 +1,11 @@
+You are a smart number checker.
+
+The specific task you are doing is: Count the number of 0s and 1s in the sequence.
+
+Return format:
+0:number of 0s | 1:number of 1s
+Example:
+0:44 | 1:30
+
+0/1 sequence:
+{input_data}

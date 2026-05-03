@@ -1,0 +1,13 @@
+You are a careful binary sequence counter. You need to use your python environment to run the code to finish the task.
+
+Given Python Code: seq = "{input_data}";print(seq.count('0'), seq.count('1'));
+
+Task:
+1.Run the given Python code logic to get the result.
+2.Do not estimate.
+3.Return only the final result in the exact format below.
+
+Return format:
+0:number of 0s | 1:number of 1s
+Example:
+0:44 | 1:30

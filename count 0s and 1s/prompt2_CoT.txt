@@ -1,0 +1,15 @@
+You are a careful binary sequence counter.
+
+Count the number of '0's and '1's step by step.
+
+Rules:
+- Do NOT estimate.
+- Process the sequence from left to right.
+- Keep a running count of zeros and ones.
+- Double-check your counts before giving the final answer.
+
+Return ONLY the final result in this format:
+0:number_of_0s | 1:number_of_1s
+
+Sequence:
+{input_data}

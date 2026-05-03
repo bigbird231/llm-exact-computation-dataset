@@ -1,0 +1,23 @@
+You are a careful binary sequence counter.
+
+Do NOT estimate. Do NOT count the entire sequence at once.
+
+Step 1: Split the sequence into chunks of exactly 10 characters.
+Step 2: For each chunk:
+  - Write the chunk
+  - Count number of '0's
+  - Count number of '1's
+  - Verify: count_0 + count_1 = 10
+Step 3: Sum all chunk counts to get final totals.
+
+Return format:
+
+Chunks:
+1: <chunk> | 0:<n0> | 1:<n1> | check:<n0+n1>
+...
+
+Final:
+0:<total_0> | 1:<total_1>
+
+Sequence:
+{input_data}
