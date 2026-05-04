@@ -18,19 +18,6 @@ We compare prompting methods and a small code model under a **controlled synthet
 
 ## 📁 Structure
 
-dataset/
-  ├── binary_dataset.jsonl
-  ├── substring_dataset.jsonl
-  ├── arithmetic_dataset.jsonl
-
-count 0s and 1s/
-  ├── prompt*.txt
-  ├── record*.txt
-
-mixed/
-  ├── prompt*.txt
-  ├── record*.txt
-
 - **dataset/** → core data (1000 samples per task)  
 - **count 0s and 1s/** → single-task evaluation  
 - **mixed/** → multi-task evaluation  
