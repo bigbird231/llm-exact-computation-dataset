@@ -20,7 +20,8 @@ We compare prompting methods and a small code model under a **controlled synthet
 
 - **dataset/** → core data (1000 samples per task)  
 - **count 0s and 1s/** → single-task evaluation  
-- **mixed/** → multi-task evaluation  
+- **mixed/** → multi-task evaluation
+- **mixed_long_arithmetic/** → multi-task evaluation result on longer arithmetic expressions  
 
 ---
 
