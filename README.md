@@ -70,14 +70,6 @@ We compare prompting methods and a small code model under a **controlled synthet
 
 ---
 
-### Task-Level Observations
-
-- Arithmetic: All methods → 100%  
-- Binary Counting: Moderate difficulty (~0.5–0.7)  
-- Longest Substring: Hardest task (~0.4–0.5)  
-
----
-
 ## 🔑 Key Findings
 
 - LLMs struggle with exact symbolic computation  
