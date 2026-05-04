@@ -168,12 +168,6 @@ with open("binary_dataset.jsonl") as f:
 
 ---
 
-## 🔗 Project Link
-
-https://github.com/bigbird231/llm-exact-computation-dataset
-
----
-
 ## 💡 Notes
 
 This dataset is designed to:
