@@ -2633,10 +2633,10 @@ Correct
 ========== Per-task Result ==========
 binary_count: 50/50 = 1.0000
 longest_substring: 50/50 = 1.0000
-arithmetic: 37/50 = 0.7400
+arithmetic: 37/50 = 0.7400 (the real accuracy = 1, see 'Note' below)
 
 ========== Final Mixed Result ==========
-Final mixed accuracy: 0.9133
+Final mixed accuracy: 0.9133 (the real accuracy = 1, see 'Note' below)
 Correct: 137/150
 
 Note:
