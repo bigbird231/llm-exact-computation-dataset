@@ -18,7 +18,7 @@ We compare prompting methods and a small code model under a **controlled synthet
 
 ## 📁 Structure
 
-- **dataset/** → core data (1000 samples per task)  
+- **dataset/** → core data (1000 samples per task), and testset (200 samples per task)
 - **count 0s and 1s/** → single-task evaluation  
 - **mixed/** → multi-task evaluation 
 
