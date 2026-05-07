@@ -61,11 +61,11 @@ We compare prompting methods and a small code model under a **controlled synthet
 
 | Method | Accuracy |
 |------|--------|
-| Plain | 0.68 |
+| Plain | 0.65 |
 | CoT | 0.65 |
 | Least-to-Most | 0.62 |
 | PoT | **1.00** |
-| Self-Consistency | 0.72 |
+| Self-Consistency | 0.73 |
 | CodeT5-small | **1.00** |
 
 ---
