@@ -1,0 +1,36 @@
+You are a careful computation assistant.
+
+Task type:
+{task_type}
+
+Instruction:
+{instruction}
+
+Input:
+{input_data}
+
+Target character if needed:
+{target_char}
+
+Solve the task by decomposing it into smaller steps.
+
+For binary_count:
+- Split the sequence into smaller chunks.
+- Count each chunk.
+- Sum the counts.
+
+For longest_substring:
+- Scan the sequence from left to right.
+- Track current consecutive length.
+- Track maximum consecutive length.
+
+For arithmetic:
+- Apply standard operator precedence.
+- Solve multiplication/division before addition/subtraction.
+
+Return only the final answer.
+
+Output format:
+- If task_type is binary_count, return: 0:<count_0> | 1:<count_1>
+- If task_type is longest_substring, return only the integer.
+- If task_type is arithmetic, return only the integer.

@@ -1,0 +1,1449 @@
+
+Sample 1/90
+Task type: binary_count
+Instruction: Can you tell me the separate counts of 0s and 1s?
+Input: 11001000011101100001100101001111001001011111000001111101110000101010100111100111100010101
+Ground truth: 0:43 | 1:46
+---------
+Single SC 1: 0:43 | 1:46
+Single SC 2: 0:43 | 1:46
+Single SC 3: 0:43 | 1:46
+Single SC 4: 0:43 | 1:46
+Single SC 5: 0:43 | 1:46
+GPT voted result: 0:43 | 1:46
+Predicted: 0:43 | 1:46
+Correct
+
+
+Sample 2/90
+Task type: arithmetic
+Instruction: Simplify the expression and return its final integer result
+Input: 3 -  27 /  9
+Ground truth: 0
+---------
+Single SC 1: 0
+Single SC 2: 0
+Single SC 3: 0
+Single SC 4: 0
+Single SC 5: 0
+GPT voted result: 0
+Predicted: 0
+Correct
+
+
+Sample 3/90
+Task type: longest_substring
+Instruction: Return the integer length of the longest repeated 'r' segment
+Input: 6%gnqetvjrr91rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrb$9g!k^bxd#gynp!*j&pziu@oi91x5hh#ks!gi6nab1lp8h6n^$k
+Ground truth: 46
+---------
+Single SC 1: 46
+Single SC 2: 46
+Single SC 3: 56
+Single SC 4: 52
+Single SC 5: 52
+GPT voted result: 46
+Predicted: 46
+Correct
+
+
+Sample 4/90
+Task type: longest_substring
+Instruction: Given a sequence, compute the length of the longest consecutive '2' substring
+Input: asdk30e358gk6@ppiorxqi&jn&&f4*57hylhrk40x^1v2b41jeqh0nud*ieslfby^hhqecysuv6l222222222222222222222226&4#7pl%okpy2
+Ground truth: 23
+---------
+Single SC 1: 23
+Single SC 2: 23
+Single SC 3: 23
+Single SC 4: 24
+Single SC 5: 25
+GPT voted result: 23
+Predicted: 23
+Correct
+
+
+Sample 5/90
+Task type: arithmetic
+Instruction: Evaluate the arithmetic expression
+Input: 4 +  34 *  24 /  3
+Ground truth: 276
+---------
+Single SC 1: 276
+Single SC 2: 276
+Single SC 3: 276
+Single SC 4: 276
+Single SC 5: 276
+GPT voted result: 276
+Predicted: 276
+Correct
+
+
+Sample 6/90
+Task type: longest_substring
+Instruction: Analyze the sequence and return only the maximum consecutive 'q' count
+Input: 1z!*#2y8h*ya7uv5f3t#&cx7t$z76frr@$c6dnv6zkscqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq0*16$9&u#okepw!0h6&nd&3m^r8acjj&0
+Ground truth: 31
+---------
+Single SC 1: 33
+Single SC 2: 33
+Single SC 3: 33
+Single SC 4: 31
+Single SC 5: 33
+GPT voted result: 33
+Predicted: 33
+Wrong
+
+
+Sample 7/90
+Task type: binary_count
+Instruction: Give the count of zeros and the count of ones
+Input: 01100011001000111000100100111111110000000011110101111000100100011011001100100000000110100001001001001
+Ground truth: 0:58 | 1:43
+---------
+Single SC 1: 0:57 | 1:43
+Single SC 2: 0:57 | 1:43
+Single SC 3: 0:57 | 1:43
+Single SC 4: 0:57 | 1:43
+Single SC 5: 0:57 | 1:43
+GPT voted result: 0:57 | 1:43
+Predicted: 0:57 | 1:43
+Wrong
+
+
+Sample 8/90
+Task type: binary_count
+Instruction: Please compute count_0 and count_1
+Input: 0111011101000110000100111010011101010101100101001110011100110111101101101100111100011111111
+Ground truth: 0:37 | 1:54
+---------
+Single SC 1: 0:37 | 1:53
+Single SC 2: 0:37 | 1:54
+Single SC 3: 0:37 | 1:54
+Single SC 4: 0:38 | 1:57
+Single SC 5: 0:37 | 1:54
+GPT voted result: 0:37 | 1:54
+Predicted: 0:37 | 1:54
+Correct
+
+
+Sample 9/90
+Task type: arithmetic
+Instruction: Determine the answer to the given arithmetic expression
+Input: 49 +  44 -  18
+Ground truth: 75
+---------
+Single SC 1: 75
+Single SC 2: 75
+Single SC 3: 75
+Single SC 4: 75
+Single SC 5: 75
+GPT voted result: 75
+Predicted: 75
+Correct
+
+
+Sample 10/90
+Task type: arithmetic
+Instruction: Calculate the given formula
+Input: 28 +  45 +  49
+Ground truth: 122
+---------
+Single SC 1: 122
+Single SC 2: 122
+Single SC 3: 122
+Single SC 4: 122
+Single SC 5: 122
+GPT voted result: 122
+Predicted: 122
+Correct
+
+
+Sample 11/90
+Task type: arithmetic
+Instruction: Calculate the given formula
+Input: 20 /  10 -  30 /  5 -  22
+Ground truth: -26
+---------
+Single SC 1: -26
+Single SC 2: -26
+Single SC 3: -26
+Single SC 4: -26
+Single SC 5: -26
+GPT voted result: -26
+Predicted: -26
+Correct
+
+
+Sample 12/90
+Task type: binary_count
+Instruction: Please compute count_0 and count_1
+Input: 1110101111010000110011101101000100000010100110011111010100000111111100110101100111011111000
+Ground truth: 0:42 | 1:49
+---------
+Single SC 1: 0:42 | 1:48
+Single SC 2: 0:42 | 1:49
+Single SC 3: 0:41 | 1:49
+Single SC 4: 0:42 | 1:49
+Single SC 5: 0:42 | 1:49
+GPT voted result: 0:42 | 1:49
+Predicted: 0:42 | 1:49
+Correct
+
+
+Sample 13/90
+Task type: binary_count
+Instruction: Please compute count_0 and count_1
+Input: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Ground truth: 0:102 | 1:0
+---------
+Single SC 1: 0:150 | 1:0
+Single SC 2: 0:360 | 1:0
+Single SC 3: 0:120 | 1:0
+Single SC 4: 0:120 | 1:0
+Single SC 5: 0:150 | 1:0
+GPT voted result: 0:150 | 1:0
+Predicted: 0:150 | 1:0
+Wrong
+
+
+Sample 14/90
+Task type: binary_count
+Instruction: Please compute count_0 and count_1
+Input: 1000001100011000100001111101000110011011001111111001011110100100110111110110001111001000101111010011100110101001001011
+Ground truth: 0:55 | 1:63
+---------
+Single SC 1: 0:55 | 1:63
+Single SC 2: 0:55 | 1:63
+Single SC 3: 0:55 | 1:63
+Single SC 4: 0:55 | 1:64
+Single SC 5: 0:55 | 1:63
+GPT voted result: 0:55 | 1:63
+Predicted: 0:55 | 1:63
+Correct
+
+
+Sample 15/90
+Task type: binary_count
+Instruction: Count how many 0s and how many 1s are in the sequence
+Input: 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+Ground truth: 0:0 | 1:104
+---------
+Single SC 1: 0:0 | 1:110
+Single SC 2: 0:0 | 1:110
+Single SC 3: 0:0 | 1:110
+Single SC 4: 0:0 | 1:110
+Single SC 5: 0:0 | 1:125
+GPT voted result: 0:0 | 1:110
+Predicted: 0:0 | 1:110
+Wrong
+
+
+Sample 16/90
+Task type: binary_count
+Instruction: Determine the frequency of 0 and the frequency of 1
+Input: 1001001100010001101001100101100011010000111001001010001110010000010001000010000110111110000010
+Ground truth: 0:57 | 1:37
+---------
+Single SC 1: 0:57 | 1:37
+Single SC 2: 0:57 | 1:37
+Single SC 3: 0:57 | 1:37
+Single SC 4: 0:57 | 1:37
+Single SC 5: 0:57 | 1:37
+GPT voted result: 0:57 | 1:37
+Predicted: 0:57 | 1:37
+Correct
+
+
+Sample 17/90
+Task type: longest_substring
+Instruction: Find the maximum number of consecutive 'z' characters
+Input: ^25k63euyx#1&$x3@&sw5v!v$!xxbvu^p%yi!%f2ht6xse9o$wkui&xjd3&7^6kez^uge$%lftx5ssujdnc&i4%y$q3mb69jtdmx*plfkssal@m1os^b!q
+Ground truth: 1
+---------
+Single SC 1: 1
+Single SC 2: 1
+Single SC 3: 1
+Single SC 4: 1
+Single SC 5: 1
+GPT voted result: 1
+Predicted: 1
+Correct
+
+
+Sample 18/90
+Task type: longest_substring
+Instruction: How many 'v' characters appear consecutively at most?
+Input: @xb#&tsn1br86s8&*ze8g5su2u2z7i1^n1#*a%c6@&4o^do1w$c33r12qnmta!*3duvvbh*mnmsof4i*5s$1og66wpqbjzh*dhv7ujy
+Ground truth: 2
+---------
+Single SC 1: 2
+Single SC 2: 2
+Single SC 3: 2
+Single SC 4: 2
+Single SC 5: 2
+GPT voted result: 2
+Predicted: 2
+Correct
+
+
+Sample 19/90
+Task type: arithmetic
+Instruction: Determine the answer to the given arithmetic expression
+Input: 13 +  29 -  27
+Ground truth: 15
+---------
+Single SC 1: 15
+Single SC 2: 15
+Single SC 3: 15
+Single SC 4: 15
+Single SC 5: 15
+GPT voted result: 15
+Predicted: 15
+Correct
+
+
+Sample 20/90
+Task type: longest_substring
+Instruction: Return the integer length of the longest repeated '!' segment
+Input: dbx$5x7nq*sw#rkfbtkb*6sf6l8%0ur!c392luvcxt!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!k53d0@$ii0#&hxy
+Ground truth: 40
+---------
+Single SC 1: 56
+Single SC 2: 58
+Single SC 3: 56
+Single SC 4: 56
+Single SC 5: 56
+GPT voted result: 56
+Predicted: 56
+Wrong
+
+
+Sample 21/90
+Task type: arithmetic
+Instruction: Find the value of the expression
+Input: 42 /  7 -  11 +  3 /  1
+Ground truth: -2
+---------
+Single SC 1: -2
+Single SC 2: -2
+Single SC 3: -2
+Single SC 4: -2
+Single SC 5: -2
+GPT voted result: -2
+Predicted: -2
+Correct
+
+
+Sample 22/90
+Task type: binary_count
+Instruction: Determine the frequency of 0 and the frequency of 1
+Input: 011010000100010010101001000111010000011001100000111100100101001100110010011011101000010001
+Ground truth: 0:53 | 1:37
+---------
+Single SC 1: 0:53 | 1:37
+Single SC 2: 0:55 | 1:38
+Single SC 3: 0:55 | 1:38
+Single SC 4: 0:55 | 1:39
+Single SC 5: 0:54 | 1:38
+GPT voted result: 0:55 | 1:38
+Predicted: 0:55 | 1:38
+Wrong
+
+
+Sample 23/90
+Task type: binary_count
+Instruction: Return how many 0s appear and how many 1s appear
+Input: 01101111111001011110010101011101010010011011001011001001010011011101110110010101101101100111111111100100
+Ground truth: 0:42 | 1:62
+---------
+Single SC 1: 0:42 | 1:62
+Single SC 2: 0:42 | 1:62
+Single SC 3: 0:41 | 1:63
+Single SC 4: 0:41 | 1:63
+Single SC 5: 0:42 | 1:62
+GPT voted result: 0:42 | 1:62
+Predicted: 0:42 | 1:62
+Correct
+
+
+Sample 24/90
+Task type: longest_substring
+Instruction: Find the length of the longest continuous block of 'n'
+Input: 4gh*xoopr@2k$1$3bfbcn%tost##5x8w90%e776f46zdihx!@j5#qnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnk9jhl*^8ih@
+Ground truth: 55
+---------
+Single SC 1: 46
+Single SC 2: 67
+Single SC 3: 100
+Single SC 4: 100
+Single SC 5: 71
+GPT voted result: 100
+Predicted: 100
+Wrong
+
+
+Sample 25/90
+Task type: arithmetic
+Instruction: Determine the answer to the given arithmetic expression
+Input: 35 +  33 +  49
+Ground truth: 117
+---------
+Single SC 1: 117
+Single SC 2: 117
+Single SC 3: 117
+Single SC 4: 117
+Single SC 5: 117
+GPT voted result: 117
+Predicted: 117
+Correct
+
+
+Sample 26/90
+Task type: longest_substring
+Instruction: Return the integer length of the longest repeated 't' segment
+Input: yv&*zk3i$8bz@!&bf^1i3ldqyun3uvyr0qf4b8tttttttttttttttttttttttttttttttttttttme@%pg
+Ground truth: 37
+---------
+Single SC 1: 43
+Single SC 2: 37
+Single SC 3: 41
+Single SC 4: 41
+Single SC 5: 47
+GPT voted result: 41
+Predicted: 41
+Wrong
+
+
+Sample 27/90
+Task type: longest_substring
+Instruction: Return the length of the longest consecutive substring consisting only of 'g'
+Input: xi109s9dn&g1mz47e3ujq^9epvp5yrk$6o$oan$wp#xizc7^8wml#93psbffq$#5t3gggggggggggggggggggggggg42o$ygc&m*qbv4nz8@
+Ground truth: 24
+---------
+Single SC 1: 24
+Single SC 2: 24
+Single SC 3: 28
+Single SC 4: 24
+Single SC 5: 24
+GPT voted result: 24
+Predicted: 24
+Correct
+
+
+Sample 28/90
+Task type: longest_substring
+Instruction: Return the length of the longest consecutive substring consisting only of '0'
+Input: b!en3sek8n@*e&2w&y5nvc*8liar5&*obg@iq!*b2r67lrg9n^nw03jb4**e^@bgr4ori3lld7!x8*a$b&gxe3s&8@60iib0804p0rp%8#rexkpw@7l
+Ground truth: 1
+---------
+Single SC 1: 1
+Single SC 2: 1
+Single SC 3: 1
+Single SC 4: 1
+Single SC 5: 1
+GPT voted result: 1
+Predicted: 1
+Correct
+
+
+Sample 29/90
+Task type: arithmetic
+Instruction: Evaluate the arithmetic expression
+Input: 11 -  29 -  8 -  31 -  43 +  35
+Ground truth: -65
+---------
+Single SC 1: -65
+Single SC 2: -65
+Single SC 3: -65
+Single SC 4: -65
+Single SC 5: -65
+GPT voted result: -65
+Predicted: -65
+Correct
+
+
+Sample 30/90
+Task type: longest_substring
+Instruction: Return the integer length of the longest repeated 'h' segment
+Input: 7oarg*u%r%s5t5phhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhfh7u$z9!2r^b$wk!bu&wc#w4!j6e7r2jyz6dzn##%lse1%gf#wrc%yl56^$b68^dz6mf
+Ground truth: 32
+---------
+Single SC 1: 34
+Single SC 2: 34
+Single SC 3: 34
+Single SC 4: 35
+Single SC 5: 31
+GPT voted result: 34
+Predicted: 34
+Wrong
+
+
+Sample 31/90
+Task type: arithmetic
+Instruction: Determine the answer to the given arithmetic expression
+Input: 47 *  29 -  50 /  10
+Ground truth: 1358
+---------
+Single SC 1: 1358
+Single SC 2: 1358
+Single SC 3: 1358
+Single SC 4: 1358
+Single SC 5: 1358
+GPT voted result: 1358
+Predicted: 1358
+Correct
+
+
+Sample 32/90
+Task type: binary_count
+Instruction: Find count_0 and count_1 for the binary sequence
+Input: 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+Ground truth: 0:0 | 1:114
+---------
+Single SC 1: 0:0 | 1:150
+Single SC 2: 0:0 | 1:180
+Single SC 3: 0:0 | 1:108
+Single SC 4: 0:0 | 1:120
+Single SC 5: 0:0 | 1:144
+GPT voted result: 0:0 | 1:150
+Predicted: 0:0 | 1:150
+Wrong
+
+
+Sample 33/90
+Task type: binary_count
+Instruction: Return how many 0s appear and how many 1s appear
+Input: 0100101111010010110001110100011000111100010110111111010110001111001101010011001111111110101111010111011000
+Ground truth: 0:44 | 1:62
+---------
+Single SC 1: 0:44 | 1:63
+Single SC 2: 0:44 | 1:61
+Single SC 3: 0:44 | 1:64
+Single SC 4: 0:44 | 1:62
+Single SC 5: 0:44 | 1:62
+GPT voted result: 0:44 | 1:62
+Predicted: 0:44 | 1:62
+Correct
+
+
+Sample 34/90
+Task type: longest_substring
+Instruction: Given a sequence, compute the length of the longest consecutive '@' substring
+Input: ybti$m^%&&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@3iwrl1wse1&8@&n@l51o@9ulo9&g9k6!my^m&%k39^17b4crl^ow3^of7$#x@pef1*@
+Ground truth: 33
+---------
+Single SC 1: 65
+Single SC 2: 33
+Single SC 3: 33
+Single SC 4: 31
+Single SC 5: 33
+GPT voted result: 33
+Predicted: 33
+Correct
+
+
+Sample 35/90
+Task type: longest_substring
+Instruction: Return the integer length of the longest repeated '8' segment
+Input: 6hw@0@8^p8tw&5l*bjzyxz8yk$w!giu2nt$6@!kvuo#r&1%%888888888888888888888888888#3t**5q9w*$!szre6m#6th03ps37%vnz@8
+Ground truth: 27
+---------
+Single SC 1: 27
+Single SC 2: 27
+Single SC 3: 27
+Single SC 4: 27
+Single SC 5: 27
+GPT voted result: 27
+Predicted: 27
+Correct
+
+
+Sample 36/90
+Task type: arithmetic
+Instruction: Find the value of the expression
+Input: 4 *  43 -  48
+Ground truth: 124
+---------
+Single SC 1: 124
+Single SC 2: 124
+Single SC 3: 124
+Single SC 4: 124
+Single SC 5: 124
+GPT voted result: 124
+Predicted: 124
+Correct
+
+
+Sample 37/90
+Task type: binary_count
+Instruction: Can you tell me the separate counts of 0s and 1s?
+Input: 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+Ground truth: 0:0 | 1:118
+---------
+Single SC 1: 0:0 | 1:100
+Single SC 2: 0:0 | 1:112
+Single SC 3: 0:0 | 1:100
+Single SC 4: 0:0 | 1:100
+Single SC 5: 0:0 | 1:100
+GPT voted result: 0:0 | 1:100
+Predicted: 0:0 | 1:100
+Wrong
+
+
+Sample 38/90
+Task type: binary_count
+Instruction: Give the count of zeros and the count of ones
+Input: 0000011011110101001101010101100101101010000101000010010000010110110111010111010101110010000100010101010011010101
+Ground truth: 0:60 | 1:52
+---------
+Single SC 1: 0:60 | 1:52
+Single SC 2: 0:60 | 1:52
+Single SC 3: 0:60 | 1:52
+Single SC 4: 0:59 | 1:51
+Single SC 5: 0:60 | 1:52
+GPT voted result: 0:60 | 1:52
+Predicted: 0:60 | 1:52
+Correct
+
+
+Sample 39/90
+Task type: arithmetic
+Instruction: Return the result of the arithmetic formula
+Input: 20 -  12 /  6
+Ground truth: 18
+---------
+Single SC 1: 18
+Single SC 2: 18
+Single SC 3: 18
+Single SC 4: 18
+Single SC 5: 18
+GPT voted result: 18
+Predicted: 18
+Correct
+
+
+Sample 40/90
+Task type: longest_substring
+Instruction: Return the integer length of the longest repeated 'h' segment
+Input: ivxx@7#xp^rn@yfgi%#hc@^mm2ge8$vt4m8jcim09q9wx2%h1e4076bk#risc!dmz5*86ek26y9yz#rnlakhhhhhhhhhhhhhhhhhhhhhhhjrird^pn8
+Ground truth: 23
+---------
+Single SC 1: 22
+Single SC 2: 22
+Single SC 3: 22
+Single SC 4: 22
+Single SC 5: 22
+GPT voted result: 22
+Predicted: 22
+Wrong
+
+
+Sample 41/90
+Task type: binary_count
+Instruction: Count how many 0s and how many 1s are in the sequence
+Input: 110001101011010110010101101111100110011101110101000110011011100000101110111001101111100111
+Ground truth: 0:37 | 1:53
+---------
+Single SC 1: 0:37 | 1:53
+Single SC 2: 0:37 | 1:53
+Single SC 3: 0:37 | 1:53
+Single SC 4: 0:37 | 1:53
+Single SC 5: 0:37 | 1:53
+GPT voted result: 0:37 | 1:53
+Predicted: 0:37 | 1:53
+Correct
+
+
+Sample 42/90
+Task type: longest_substring
+Instruction: Return the length of the longest consecutive substring consisting only of '6'
+Input: enqhdl#b1hy!g8vn0ed05b3z@y4alu7$hi4g44pkz8^u^58edwi666666666666666666666666666661&y#ffwnsb%ujti1#$0&@1!2071$!ad39l
+Ground truth: 29
+---------
+Single SC 1: 33
+Single SC 2: 29
+Single SC 3: 34
+Single SC 4: 25
+Single SC 5: 30
+GPT voted result: 33
+Predicted: 33
+Wrong
+
+
+Sample 43/90
+Task type: arithmetic
+Instruction: Solve the expression using standard order of operations
+Input: 25 +  8 /  8 *  45 -  1
+Ground truth: 69
+---------
+Single SC 1: 69
+Single SC 2: 69
+Single SC 3: 69
+Single SC 4: 69
+Single SC 5: 69
+GPT voted result: 69
+Predicted: 69
+Correct
+
+
+Sample 44/90
+Task type: arithmetic
+Instruction: Compute the result of this formula
+Input: 43 +  45 /  5 -  19
+Ground truth: 33
+---------
+Single SC 1: 33
+Single SC 2: 33
+Single SC 3: 33
+Single SC 4: 33
+Single SC 5: 33
+GPT voted result: 33
+Predicted: 33
+Correct
+
+
+Sample 45/90
+Task type: arithmetic
+Instruction: Solve the expression using standard order of operations
+Input: 6 /  3 -  21
+Ground truth: -19
+---------
+Single SC 1: -19
+Single SC 2: -19
+Single SC 3: -19
+Single SC 4: -19
+Single SC 5: -19
+GPT voted result: -19
+Predicted: -19
+Correct
+
+
+Sample 46/90
+Task type: binary_count
+Instruction: Determine the frequency of 0 and the frequency of 1
+Input: 0111101111111101010100001001111011000001100011111111011010100000110110001100010001000000010
+Ground truth: 0:46 | 1:45
+---------
+Single SC 1: 0:48 | 1:45
+Single SC 2: 0:46 | 1:45
+Single SC 3: 0:46 | 1:45
+Single SC 4: 0:46 | 1:45
+Single SC 5: 0:46 | 1:45
+GPT voted result: 0:46 | 1:45
+Predicted: 0:46 | 1:45
+Correct
+
+
+Sample 47/90
+Task type: binary_count
+Instruction: Determine the frequency of 0 and the frequency of 1
+Input: 10100001100011011101011110100000111001001001110101101001001001000101001100100101
+Ground truth: 0:43 | 1:37
+---------
+Single SC 1: 0:43 | 1:37
+Single SC 2: 0:43 | 1:37
+Single SC 3: 0:43 | 1:37
+Single SC 4: 0:43 | 1:37
+Single SC 5: 0:43 | 1:37
+GPT voted result: 0:43 | 1:37
+Predicted: 0:43 | 1:37
+Correct
+
+
+Sample 48/90
+Task type: binary_count
+Instruction: Return the separate counts of 0s and 1s in the sequence
+Input: 1111110100101110001000001111010011010100001110001001100001111001110010101010000101
+Ground truth: 0:42 | 1:40
+---------
+Single SC 1: 0:41 | 1:39
+Single SC 2: 0:42 | 1:40
+Single SC 3: 0:42 | 1:40
+Single SC 4: 0:42 | 1:40
+Single SC 5: 0:42 | 1:40
+GPT voted result: 0:42 | 1:40
+Predicted: 0:42 | 1:40
+Correct
+
+
+Sample 49/90
+Task type: arithmetic
+Instruction: Work out the final value of this expression
+Input: 16 *  13 *  40 *  34
+Ground truth: 282880
+---------
+Single SC 1: 282880
+Single SC 2: 282880
+Single SC 3: 282880
+Single SC 4: 282880
+Single SC 5: 282880
+GPT voted result: 282880
+Predicted: 282880
+Correct
+
+
+Sample 50/90
+Task type: arithmetic
+Instruction: Solve the expression using standard order of operations
+Input: 38 -  2 *  7 *  39
+Ground truth: -508
+---------
+Single SC 1: -508
+Single SC 2: -508
+Single SC 3: -508
+Single SC 4: -508
+Single SC 5: -508
+GPT voted result: -508
+Predicted: -508
+Correct
+
+
+Sample 51/90
+Task type: longest_substring
+Instruction: Find the maximum number of consecutive '#' characters
+Input: h5^&6ob@!!4rg@ly4^1t!igue8lzbz98##################################8k1&aptc7s&82i!5u7w
+Ground truth: 34
+---------
+Single SC 1: 34
+Single SC 2: 34
+Single SC 3: 34
+Single SC 4: 34
+Single SC 5: 34
+GPT voted result: 34
+Predicted: 34
+Correct
+
+
+Sample 52/90
+Task type: binary_count
+Instruction: Give the count of zeros and the count of ones
+Input: 00110011110111001001110111011000101010101101010001111100001010100001010110100010110101110000101010001
+Ground truth: 0:51 | 1:50
+---------
+Single SC 1: 0:51 | 1:50
+Single SC 2: 0:51 | 1:50
+Single SC 3: 0:51 | 1:50
+Single SC 4: 0:51 | 1:50
+Single SC 5: 0:51 | 1:50
+GPT voted result: 0:51 | 1:50
+Predicted: 0:51 | 1:50
+Correct
+
+
+Sample 53/90
+Task type: arithmetic
+Instruction: Use operator precedence to calculate the expression
+Input: 9 /  3 +  12 /  4 -  17 +  40
+Ground truth: 29
+---------
+Single SC 1: 29
+Single SC 2: 29
+Single SC 3: 29
+Single SC 4: 29
+Single SC 5: 29
+GPT voted result: 29
+Predicted: 29
+Correct
+
+
+Sample 54/90
+Task type: arithmetic
+Instruction: Calculate the given formula
+Input: 30 -  7 +  15 /  3
+Ground truth: 28
+---------
+Single SC 1: 28
+Single SC 2: 28
+Single SC 3: 28
+Single SC 4: 28
+Single SC 5: 28
+GPT voted result: 28
+Predicted: 28
+Correct
+
+
+Sample 55/90
+Task type: arithmetic
+Instruction: Work out the final value of this expression
+Input: 2 /  1 -  25 -  32
+Ground truth: -55
+---------
+Single SC 1: -55
+Single SC 2: -55
+Single SC 3: -55
+Single SC 4: -55
+Single SC 5: -55
+GPT voted result: -55
+Predicted: -55
+Correct
+
+
+Sample 56/90
+Task type: arithmetic
+Instruction: Simplify the expression and return its final integer result
+Input: 38 +  16 *  13 +  19 +  56 /  7
+Ground truth: 273
+---------
+Single SC 1: 273
+Single SC 2: 273
+Single SC 3: 273
+Single SC 4: 273
+Single SC 5: 273
+GPT voted result: 273
+Predicted: 273
+Correct
+
+
+Sample 57/90
+Task type: arithmetic
+Instruction: Simplify the expression and return its final integer result
+Input: 90 /  9 +  20 +  44 *  34
+Ground truth: 1526
+---------
+Single SC 1: 1526
+Single SC 2: 1526
+Single SC 3: 1526
+Single SC 4: 1526
+Single SC 5: 1526
+GPT voted result: 1526
+Predicted: 1526
+Correct
+
+
+Sample 58/90
+Task type: longest_substring
+Instruction: Given a sequence, compute the length of the longest consecutive '#' substring
+Input: 2l8htnyee08yhgtybmyef7#kzbvvv%rywqlz6py6qo52frbms*r%#########################@4r*ig^2ny7o8x&d@u*%2b@mqb
+Ground truth: 25
+---------
+Single SC 1: 25
+Single SC 2: 25
+Single SC 3: 25
+Single SC 4: 25
+Single SC 5: 25
+GPT voted result: 25
+Predicted: 25
+Correct
+
+
+Sample 59/90
+Task type: longest_substring
+Instruction: Analyze the sequence and return only the maximum consecutive 'b' count
+Input: kph9v6nfnk$4w5bmsb$2h8fr8xtozj%2^r7g93mh49ui@41sk6q^y9uh@jze5&wbbbbbbbbbbbbbbbbbbbbbbbbbbbt
+Ground truth: 27
+---------
+Single SC 1: 32
+Single SC 2: 30
+Single SC 3: 27
+Single SC 4: 30
+Single SC 5: 33
+GPT voted result: 30
+Predicted: 30
+Wrong
+
+
+Sample 60/90
+Task type: arithmetic
+Instruction: Calculate the given formula
+Input: 22 +  40 *  72 /  8 *  42
+Ground truth: 15142
+---------
+Single SC 1: 15142
+Single SC 2: 15142
+Single SC 3: 15142
+Single SC 4: 15142
+Single SC 5: 15142
+GPT voted result: 15142
+Predicted: 15142
+Correct
+
+
+Sample 61/90
+Task type: binary_count
+Instruction: Can you tell me the separate counts of 0s and 1s?
+Input: 0000001000011101101111110001100101100101100110101100100110111010000100010101011011110111111100000010000110001110000
+Ground truth: 0:60 | 1:55
+---------
+Single SC 1: 0:60 | 1:55
+Single SC 2: 0:60 | 1:55
+Single SC 3: 0:60 | 1:55
+Single SC 4: 0:60 | 1:55
+Single SC 5: 0:60 | 1:55
+GPT voted result: 0:60 | 1:55
+Predicted: 0:60 | 1:55
+Correct
+
+
+Sample 62/90
+Task type: arithmetic
+Instruction: Solve the expression using standard order of operations
+Input: 40 *  36 -  13 +  25
+Ground truth: 1452
+---------
+Single SC 1: 1452
+Single SC 2: 1452
+Single SC 3: 1452
+Single SC 4: 1452
+Single SC 5: 1452
+GPT voted result: 1452
+Predicted: 1452
+Correct
+
+
+Sample 63/90
+Task type: binary_count
+Instruction: Give the count of zeros and the count of ones
+Input: 010111001010101001011111110100100111000011101001101001100010011111100010100000110011000111110111001000000001011000000
+Ground truth: 0:62 | 1:55
+---------
+Single SC 1: 0:62 | 1:53
+Single SC 2: 0:62 | 1:55
+Single SC 3: 0:62 | 1:55
+Single SC 4: 0:62 | 1:56
+Single SC 5: 0:62 | 1:55
+GPT voted result: 0:62 | 1:55
+Predicted: 0:62 | 1:55
+Correct
+
+
+Sample 64/90
+Task type: longest_substring
+Instruction: For the input sequence, return the longest consecutive 'x' length
+Input: viru^c70^sbovvpn8d&p*o#y7xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx4by1ft#8j9lqy3t3sy9#4evi4mjmaa6
+Ground truth: 52
+---------
+Single SC 1: 60
+Single SC 2: 60
+Single SC 3: 54
+Single SC 4: 60
+Single SC 5: 60
+GPT voted result: 60
+Predicted: 60
+Wrong
+
+
+Sample 65/90
+Task type: longest_substring
+Instruction: Given a sequence, compute the length of the longest consecutive 'm' substring
+Input: aa0fmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmtiu6b5sjkhkam4n0aagtulplpi$gsi%cqg5@n!uo6sma4e6t01a#bpvh^r#d^nnogp!
+Ground truth: 47
+---------
+Single SC 1: 55
+Single SC 2: 68
+Single SC 3: 53
+Single SC 4: 55
+Single SC 5: 43
+GPT voted result: 55
+Predicted: 55
+Wrong
+
+
+Sample 66/90
+Task type: binary_count
+Instruction: Find count_0 and count_1 for the binary sequence
+Input: 010100100110000111111000001111000100100001100010101000010111001110000111000001011100010111001010000000
+Ground truth: 0:60 | 1:42
+---------
+Single SC 1: 0:60 | 1:42
+Single SC 2: 0:60 | 1:42
+Single SC 3: 0:60 | 1:42
+Single SC 4: 0:59 | 1:42
+Single SC 5: 0:59 | 1:42
+GPT voted result: 0:60 | 1:42
+Predicted: 0:60 | 1:42
+Correct
+
+
+Sample 67/90
+Task type: binary_count
+Instruction: Return how many 0s appear and how many 1s appear
+Input: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Ground truth: 0:116 | 1:0
+---------
+Single SC 1: 0:110 | 1:0
+Single SC 2: 0:110 | 1:0
+Single SC 3: 0:110 | 1:0
+Single SC 4: 0:110 | 1:0
+Single SC 5: 0:110 | 1:0
+GPT voted result: 0:110 | 1:0
+Predicted: 0:110 | 1:0
+Wrong
+
+
+Sample 68/90
+Task type: binary_count
+Instruction: Analyze the binary sequence and return separate counts for 0 and 1
+Input: 0001111000000110000000000101110001100000101011011000000010000101100011101110001110001011101100001011101101100101011011
+Ground truth: 0:67 | 1:51
+---------
+Single SC 1: 0:68 | 1:51
+Single SC 2: 0:69 | 1:51
+Single SC 3: 0:69 | 1:51
+Single SC 4: 0:68 | 1:51
+Single SC 5: 0:68 | 1:51
+GPT voted result: 0:68 | 1:51
+Predicted: 0:68 | 1:51
+Wrong
+
+
+Sample 69/90
+Task type: longest_substring
+Instruction: How many 'v' characters appear consecutively at most?
+Input: ouup!mwtmv7*0rq#1&&m$ism**x89un3@7lhvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv0mrd1%5#g41yuhilhxdcerg98rig*1nc&!dah
+Ground truth: 39
+---------
+Single SC 1: 43
+Single SC 2: 45
+Single SC 3: 27
+Single SC 4: 43
+Single SC 5: 43
+GPT voted result: 43
+Predicted: 43
+Wrong
+
+
+Sample 70/90
+Task type: binary_count
+Instruction: Calculate the separate number of zeros and ones
+Input: 100101111011001001011100100110000111110100101110101000000010001011000111110001100000010010011000101011110100111001
+Ground truth: 0:60 | 1:54
+---------
+Single SC 1: 0:61 | 1:54
+Single SC 2: 0:60 | 1:54
+Single SC 3: 0:60 | 1:54
+Single SC 4: 0:60 | 1:54
+Single SC 5: 0:60 | 1:54
+GPT voted result: 0:60 | 1:54
+Predicted: 0:60 | 1:54
+Correct
+
+
+Sample 71/90
+Task type: arithmetic
+Instruction: Determine the answer to the given arithmetic expression
+Input: 18 /  3 -  39 *  21
+Ground truth: -813
+---------
+Single SC 1: -813
+Single SC 2: -813
+Single SC 3: -813
+Single SC 4: -813
+Single SC 5: -813
+GPT voted result: -813
+Predicted: -813
+Correct
+
+
+Sample 72/90
+Task type: arithmetic
+Instruction: Simplify the expression and return its final integer result
+Input: 20 -  9 -  25 +  50 +  49
+Ground truth: 85
+---------
+Single SC 1: 85
+Single SC 2: 85
+Single SC 3: 85
+Single SC 4: 85
+Single SC 5: 85
+GPT voted result: 85
+Predicted: 85
+Correct
+
+
+Sample 73/90
+Task type: longest_substring
+Instruction: Find the maximum number of consecutive '7' characters
+Input: jd*2mfex*050*lp61w8izobgye6dmc&n72@rk7777777777777777777777777777777774bf!7l53^h3@vz57v%92z1hjf25sqtgwyx2sn4v#
+Ground truth: 33
+---------
+Single SC 1: 33
+Single SC 2: 33
+Single SC 3: 33
+Single SC 4: 33
+Single SC 5: 33
+GPT voted result: 33
+Predicted: 33
+Correct
+
+
+Sample 74/90
+Task type: arithmetic
+Instruction: Compute the result of this formula
+Input: 28 /  7 +  29
+Ground truth: 33
+---------
+Single SC 1: 33
+Single SC 2: 33
+Single SC 3: 33
+Single SC 4: 33
+Single SC 5: 33
+GPT voted result: 33
+Predicted: 33
+Correct
+
+
+Sample 75/90
+Task type: longest_substring
+Instruction: Find the length of the longest continuous block of 'k'
+Input: fcy0c&dlyas0@b%g2q$&vm6kkkkkkkkkkkkkkkkkkkkk1wdl*rjn7!mwrqa3ee^a*3k$7xbkp&&bw%b112gq8voo&mh5fq3!uwqek!9ks@l
+Ground truth: 21
+---------
+Single SC 1: 22
+Single SC 2: 21
+Single SC 3: 21
+Single SC 4: 21
+Single SC 5: 21
+GPT voted result: 21
+Predicted: 21
+Correct
+
+
+Sample 76/90
+Task type: arithmetic
+Instruction: Determine the answer to the given arithmetic expression
+Input: 34 -  6 /  3
+Ground truth: 32
+---------
+Single SC 1: 32
+Single SC 2: 32
+Single SC 3: 32
+Single SC 4: 32
+Single SC 5: 32
+GPT voted result: 32
+Predicted: 32
+Correct
+
+
+Sample 77/90
+Task type: binary_count
+Instruction: Return how many 0s appear and how many 1s appear
+Input: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Ground truth: 0:101 | 1:0
+---------
+Single SC 1: 0:101 | 1:0
+Single SC 2: 0:100 | 1:0
+Single SC 3: 0:101 | 1:0
+Single SC 4: 0:105 | 1:0
+Single SC 5: 0:101 | 1:0
+GPT voted result: 0:101 | 1:0
+Predicted: 0:101 | 1:0
+Correct
+
+
+Sample 78/90
+Task type: arithmetic
+Instruction: Work out the final value of this expression
+Input: 5 *  41 -  14 *  27 -  18
+Ground truth: -191
+---------
+Single SC 1: -191
+Single SC 2: -191
+Single SC 3: -191
+Single SC 4: -191
+Single SC 5: -191
+GPT voted result: -191
+Predicted: -191
+Correct
+
+
+Sample 79/90
+Task type: binary_count
+Instruction: Find count_0 and count_1 for the binary sequence
+Input: 11100111101011101001011101100000100011001111100110101110111001010000001001101011010111110010111101001011001001
+Ground truth: 0:50 | 1:60
+---------
+Single SC 1: 0:50 | 1:60
+Single SC 2: 0:50 | 1:60
+Single SC 3: 0:50 | 1:60
+Single SC 4: 0:50 | 1:60
+Single SC 5: 0:50 | 1:60
+GPT voted result: 0:50 | 1:60
+Predicted: 0:50 | 1:60
+Correct
+
+
+Sample 80/90
+Task type: longest_substring
+Instruction: Return the integer length of the longest repeated '8' segment
+Input: 1vajw295c*#c$u$dj*3#!arzmz#e#!h7m70r78myi0@0f0my28888888888888888888888888888888888888xc84vvcu1kqs8f8
+Ground truth: 37
+---------
+Single SC 1: 48
+Single SC 2: 38
+Single SC 3: 38
+Single SC 4: 38
+Single SC 5: 40
+GPT voted result: 38
+Predicted: 38
+Wrong
+
+
+Sample 81/90
+Task type: binary_count
+Instruction: Calculate the separate number of zeros and ones
+Input: 0111001010110010101001110000000100101110110111000010101010000110001110011001011010110110111001100111011110
+Ground truth: 0:52 | 1:54
+---------
+Single SC 1: 0:52 | 1:54
+Single SC 2: 0:52 | 1:54
+Single SC 3: 0:52 | 1:54
+Single SC 4: 0:53 | 1:53
+Single SC 5: 0:52 | 1:54
+GPT voted result: 0:52 | 1:54
+Predicted: 0:52 | 1:54
+Correct
+
+
+Sample 82/90
+Task type: longest_substring
+Instruction: Find the length of the longest continuous block of 'x'
+Input: dxn^m1xer0^btchtjq3nh%*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxrb&rmp2a^c!195odsxf#x348k
+Ground truth: 38
+---------
+Single SC 1: 61
+Single SC 2: 53
+Single SC 3: 46
+Single SC 4: 47
+Single SC 5: 46
+GPT voted result: 46
+Predicted: 46
+Wrong
+
+
+Sample 83/90
+Task type: longest_substring
+Instruction: Find the maximum number of consecutive '4' characters
+Input: wk%5g2203s1ykcmv0yd!qry$58@xwddq4$0444444444444444444449e!j8ea62g5%z&8jhwzu69y9bkk1or
+Ground truth: 20
+---------
+Single SC 1: 22
+Single SC 2: 22
+Single SC 3: 21
+Single SC 4: 21
+Single SC 5: 21
+GPT voted result: 21
+Predicted: 21
+Wrong
+
+
+Sample 84/90
+Task type: binary_count
+Instruction: Return the separate counts of 0s and 1s in the sequence
+Input: 0001011010100111111000000101100100001101011111110100110110101001111001111001101100101001
+Ground truth: 0:41 | 1:47
+---------
+Single SC 1: 0:41 | 1:47
+Single SC 2: 0:41 | 1:47
+Single SC 3: 0:41 | 1:47
+Single SC 4: 0:41 | 1:47
+Single SC 5: 0:41 | 1:47
+GPT voted result: 0:41 | 1:47
+Predicted: 0:41 | 1:47
+Correct
+
+
+Sample 85/90
+Task type: longest_substring
+Instruction: Return the length of the longest consecutive substring consisting only of 'd'
+Input: bnridddddddddddddddddddddddddddddddddddddddd%8o82j*4%jv6elju#c@vyz8sq6jp5p%m2!elgiffdh736cpw90$
+Ground truth: 40
+---------
+Single SC 1: 45
+Single SC 2: 41
+Single SC 3: 43
+Single SC 4: 45
+Single SC 5: 45
+GPT voted result: 45
+Predicted: 45
+Wrong
+
+
+Sample 86/90
+Task type: arithmetic
+Instruction: Determine the answer to the given arithmetic expression
+Input: 30 *  72 /  24 /  3
+Ground truth: 30
+---------
+Single SC 1: 30
+Single SC 2: 30
+Single SC 3: 30
+Single SC 4: 30
+Single SC 5: 30
+GPT voted result: 30
+Predicted: 30
+Correct
+
+
+Sample 87/90
+Task type: longest_substring
+Instruction: For the input sequence, return the longest consecutive 'h' length
+Input: y23h#y001eaiuzprlciii*or$@8cen219o05w$bg42$euj%trzhrsb$knpwe3tzx1tiydh9yp5iyne!@w^y$%vw@k%l5*2
+Ground truth: 1
+---------
+Single SC 1: 1
+Single SC 2: 1
+Single SC 3: 1
+Single SC 4: 1
+Single SC 5: 1
+GPT voted result: 1
+Predicted: 1
+Correct
+
+
+Sample 88/90
+Task type: longest_substring
+Instruction: Find the length of the longest continuous block of '4'
+Input: d^aegvszh4w7^d8dn76!%csq%eds444444444444444444444444444444444444444444449qcf#cj3&gz#79^n4g1fgx7y171hf!!
+Ground truth: 44
+---------
+Single SC 1: 44
+Single SC 2: 44
+Single SC 3: 44
+Single SC 4: 44
+Single SC 5: 44
+GPT voted result: 44
+Predicted: 44
+Correct
+
+
+Sample 89/90
+Task type: longest_substring
+Instruction: Given a sequence, compute the length of the longest consecutive 'm' substring
+Input: hhkacw0u*uwpd&qb4rm%#n73k&2a4^x#now$^lsmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm5ei9sdn6qdx973aq$f!mh9^3oiomug!vd$0i
+Ground truth: 37
+---------
+Single SC 1: 45
+Single SC 2: 45
+Single SC 3: 45
+Single SC 4: 45
+Single SC 5: 45
+GPT voted result: 45
+Predicted: 45
+Wrong
+
+
+Sample 90/90
+Task type: binary_count
+Instruction: Can you tell me the separate counts of 0s and 1s?
+Input: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Ground truth: 0:96 | 1:0
+---------
+Single SC 1: 0:120 | 1:0
+Single SC 2: 0:144 | 1:0
+Single SC 3: 0:108 | 1:0
+Single SC 4: 0:120 | 1:0
+Single SC 5: 0:220 | 1:0
+GPT voted result: 0:120 | 1:0
+Predicted: 0:120 | 1:0
+Wrong
+
+
+========== Per-task Result ==========
+binary_count: 21/30 = 0.7000
+longest_substring: 14/30 = 0.4667
+arithmetic: 30/30 = 1.0000
+
+========== Final Mixed Result ==========
+Final mixed accuracy: 0.7222
+Correct: 65/90
